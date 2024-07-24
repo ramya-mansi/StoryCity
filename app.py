@@ -64,7 +64,7 @@ def submit():
                 # Modify the speech parameters based on the sentiment
             if s=='Positive':
                     # Positive sentiment
-                engine.setProperty('rate', 175) # increase the speed
+                engine.setProperty('rate', 180) # increase the speed
                 engine.setProperty('pitch', 215) # increase the pitch
             elif s=='Negative':
                     # Negative sentiment
